@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, p {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+form {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+form label {
+    font-size: 1.3rem;
+    margin-top: 0.7rem;
+    font-family: sans-serif;
+}
+form input{
+   width: 36rem;
+   height: 2rem;
+   margin: 0.5rem 0;
+   font-size: 1rem;
+   padding: 0.5rem 1rem;
+}
+
+form select {
+    width: 10rem;
+    height: 2rem;
+    margin: 0.4rem 0;
+}
